@@ -12,9 +12,9 @@ public class Question4 {
        
 		String word; 
 		
-		word = "☮";
+		word = "Peace";
 		
-		System.out.println("Today's Word-of-The-Day is: PEACE");
+		System.out.println("Today's Word-of-The-Day is: " + word);
 		
 		
 	}

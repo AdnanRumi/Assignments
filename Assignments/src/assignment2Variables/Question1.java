@@ -9,7 +9,9 @@ public class Question1 {
 		       
 				int count;
 				
-				System.out.println("count = sum of odd numbers from 0 to 20");
+				count = 7;
+				
+				System.out.println("count = " + count);
 
 	}
 

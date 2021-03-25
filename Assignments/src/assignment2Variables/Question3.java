@@ -8,6 +8,8 @@ public class Question3 {
 	  //and the other one is double called cost. Print both values 
 	 //(num first, then cost), separated by a space on a single line.
 		
+	  
+		
 		int num; double cost;
 		
 		System.out.println("num " + "cost" );

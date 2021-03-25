@@ -19,9 +19,9 @@ public class Question6 {
         //Specify the seating order as the names separated by commas and space 
 		//(as in the above example). Use variables and print names in the right order.
 		
-		String Betty = "Seat2", Bob = "Seat5LeftAile", Herb = "Seat3", James = "Seat1Aile", Jill = "Seat4";
+		String Seat2 = "Betty", Seat5LeftAile = "Bob", Seat2_1 = "Herb", Seat1Aile = "James", Seat4 = "Jill";
 		
-		System.out.println("James, Betty, Herb, Jill, Bob"); 
+		System.out.println(Seat1Aile + ", " + Seat2 + ", " + Seat2_1 + ", " + Seat4 + ", " + Seat5LeftAile); 
 		
 		
 		
