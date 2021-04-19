@@ -11,17 +11,19 @@ public class Question_6 {
            Number of milligrams in drink: 500
            It would take about 20 drinks for a lethal overdose */
        
-		int oneDrinkCaffeine, lethalOverdose, oneGram, milligram;
+		int oneDrink, lethalOverdose, oneGram, milligram, numberOfDrinksOverdose;
 		
-		oneDrinkCaffeine = 500;       
+		oneDrink = 500;       
 		
 		oneGram = 1000 ;
 		
-		lethalOverdose = oneGram * 10;  
+		lethalOverdose = oneGram * 10; 
 		
-		System.out.println("In one drink there are " + oneDrinkCaffeine + " milligrams of caffeine");
+		numberOfDrinksOverdose = lethalOverdose / oneDrink;
 		
-		System.out.println(lethalOverdose + " milligrams of caffeine is the leathal overdose and is found in average 20 drinks");
+		System.out.println("In one drink there are " + oneDrink + " milligrams of caffeine");
+		
+		System.out.println(lethalOverdose + " milligrams of caffeine is the leathal overdose and is found in average " + numberOfDrinksOverdose + " drinks");
 		
 		
 		
