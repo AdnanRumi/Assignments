@@ -12,9 +12,13 @@ public class Q_4 {
 		 * firstTwo("abcdefg") → "ab"
 		 * firstTwo("ab") → "ab" */
 		
-		String str = "Bystanders of injustice are as guilty as the perpetrators of injustice are.";
+		String str = "Bystanders of injustice are as guilty as the perpetrators of injustice.";
 		
-		System.out.println(str.substring(0, 2));
+		System.out.println(firstTwoChars(str));
 	}
-
+    
+	public static String firstTwoChars (String str) {
+		
+		return str.substring(0, 2);
+	}
 }

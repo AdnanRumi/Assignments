@@ -9,14 +9,15 @@ public class Q_3 {
 		 * extraEnd("ab") → "ababab"
 		 * extraEnd("Hi") → "HiHiHi" */
 		
-		String str = "Technophobe";
+		String str = "Technophobe"; 
 		
-		String strnew = str.substring(9) + str.substring(9) + str.substring(9);
+		System.out.println(repeatingEnds(str));
 		
-		System.out.println(strnew);
-		
-		
+	}
+	
+	public static String repeatingEnds (String str) {
 
+		return str.substring(str.length()-2) + str.substring(str.length()-2) + str.substring(str.length()-2);
 	}
 
 }

@@ -20,11 +20,15 @@ public class Question_7 {
 		
 		int dummy = change % 25;
 		
-		int dime = dummy / 10;
+        int dime = dummy / 10;
 		
-		int nickel = dummy % 10;
+		int dummy2 = dummy % 10;
 		
-		System.out.println("Price = " + priceInCents + " cents");
+		int nickel = dummy2 / 5; 
+				
+		int penny = dummy2 % 5;
+		
+		System.out.println("Price = " + priceInCents + " cents\n" + "Change = " + change + " cents\n\n");
 		
 		System.out.println("Change = " + quarter + " quarter(s), " + dime + " dime(s), and " + nickel + " nickel(s)");
 		

@@ -11,8 +11,12 @@ public class Q_5 {
 		
 		String str = "Compassion";
 		
-		System.out.println(str.substring(0, str.length() / 2));
+		System.out.println(reverse(str));
 
 	}
-
+    
+	public static String reverse (String str) {
+		
+		return str.substring(0, str.length() / 2);
+	}
 }

@@ -11,8 +11,13 @@ public class Q_6 {
 		
 		String str = "slover";
 		
-		System.out.println(str.substring(1, str.length()-1).toUpperCase());
+		System.out.println(removingFirstAndLastLetters(str));
 
+	}
+	
+	public static String removingFirstAndLastLetters(String str) {
+		
+		return str.substring(1, str.length()-1).toUpperCase();
 	}
 
 }

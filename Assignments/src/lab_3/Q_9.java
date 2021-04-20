@@ -11,10 +11,13 @@ public class Q_9 {
 		
 		String str = "Empathy";
 		
-		String strNew = str.substring(str.length() - 2) + str.substring(0, str.length() -2);
-		
-		System.out.println(strNew);
+		System.out.println(rightRotated(str));
 
+	}
+	
+	public static String rightRotated(String str) {
+		
+		return str.substring(str.length() - 2) + str.substring(0, str.length() -2);
 	}
 
 }

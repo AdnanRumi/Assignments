@@ -11,18 +11,22 @@ public class Q_10 {
 		
 		String str = "Educated";
 		
-		if(str.substring(0, 2).equalsIgnoreCase(str.substring(str.length() -2))) {
+		System.out.println(firstlastTwoLettersMirrorred(str));
+	}
+	
+	public static String firstlastTwoLettersMirrorred (String str) {
+		
+        if(str.substring(0, 2).equalsIgnoreCase(str.substring(str.length() -2))) {
 			
-			System.out.println("True");
+			return "True";
 			
 		}else {
 			
-			System.out.println("False");
+			return "False";
 
 		}
-		
-		
-
+        
+	
 	}
 
 }

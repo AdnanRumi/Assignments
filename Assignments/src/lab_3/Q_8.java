@@ -11,10 +11,13 @@ public class Q_8 {
 		
 		String str = "Honesty";
 		
-		String strNew = str.substring(2) + str.substring(0, 2);
-		
-		System.out.println(strNew);
+		System.out.println(leftRotated(str));
 
+	}
+	
+	public static String leftRotated (String str) {
+		
+		return str.substring(2) + str.substring(0, 2);
 	}
 
 }

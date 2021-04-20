@@ -10,21 +10,27 @@ public class Q_7 {
 		 * comboString("aaa", "b") → "baaab" */
 		
 		String a = "Love";
+			
+		System.out.println("\t" + shortLongShortStrings(a));
+		
+		}
+	
+	public static String shortLongShortStrings (String a) {
 		
 		String b = "Compassion";
 		
 		if(a.length() > b.length()) {
-		
+			
 		    System.out.println(b + a + b);
 		
 		}else if(b.length() > a.length()) {
 			
-			System.out.println(a + b + a);
+			System.out.println("First Expression: " + a + "\nSecond Expression: " + b + "\n");
 			
 		}
 		
-		
-
+		return a + b + a;
+	
 	}
 
 }

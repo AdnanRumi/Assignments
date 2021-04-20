@@ -12,10 +12,17 @@ public class Q_2 {
 		
 		String a = "Building";
 		
+		
+		System.out.println(mirrorredStrings(a));
+
+	}
+	
+	public static String mirrorredStrings (String a ) {
+		
 		String b = "Peace";
 		
-		System.out.println(a.concat(b).concat(b).concat(a));
-
+		return a.concat(b).concat(b).concat(a);
+		
 	}
 
 }

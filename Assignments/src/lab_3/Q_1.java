@@ -11,10 +11,15 @@ public class Q_1 {
 		
 		String str = "Joshua";
 		
-		String str2 = "Peace be with you ";
+		System.out.println(peaceName(str));
 		
-		System.out.println(str2.concat(str) + "!");
+	
 
 	}
-
+   public static String peaceName (String str) {
+	   
+	   String str2 = "Peace be with you ";
+	   
+	   return str2.concat(str) + "!";
+   }
 }
