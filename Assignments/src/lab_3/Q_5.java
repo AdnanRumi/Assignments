@@ -17,6 +17,13 @@ public class Q_5 {
     
 	public static String reverse (String str) {
 		
-		return str.substring(0, str.length() / 2);
+		if(str.length()%2 == 0) {
+			
+		    return str.substring(0, str.length() / 2);
+		
+		}else {
+			
+			return "Invalid entry";
+		}
 	}
 }

@@ -10,14 +10,15 @@ public class Q_7 {
 		 * comboString("aaa", "b") → "baaab" */
 		
 		String a = "Love";
+		
+		String b = "Compassion";
 			
-		System.out.println("\t" + shortLongShortStrings(a));
+		System.out.println("\t" + shortLongShortStrings(a, b));
 		
 		}
 	
-	public static String shortLongShortStrings (String a) {
+	public static String shortLongShortStrings (String a, String b) {
 		
-		String b = "Compassion";
 		
 		if(a.length() > b.length()) {
 			

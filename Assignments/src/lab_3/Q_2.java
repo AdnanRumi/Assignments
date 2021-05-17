@@ -12,14 +12,13 @@ public class Q_2 {
 		
 		String a = "Building";
 		
+		String b = "Peace";
 		
-		System.out.println(mirrorredStrings(a));
+		System.out.println(mirrorredStrings(a, b));
 
 	}
 	
-	public static String mirrorredStrings (String a ) {
-		
-		String b = "Peace";
+	public static String mirrorredStrings (String a, String b) {
 		
 		return a.concat(b).concat(b).concat(a);
 		

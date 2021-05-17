@@ -17,7 +17,15 @@ public class Q_6 {
 	
 	public static String removingFirstAndLastLetters(String str) {
 		
-		return str.substring(1, str.length()-1).toUpperCase();
+		if(str.length() > 2) {
+			
+			return str.substring(1, str.length()-1).toUpperCase();
+
+		}else {
+			
+			return "Invalid entry";
+		}
+		
 	}
 
 }

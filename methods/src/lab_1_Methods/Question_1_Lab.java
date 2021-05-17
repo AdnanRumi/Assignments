@@ -16,38 +16,18 @@ public class Question_1_Lab {
 
 	}
 
-	public static void strings(String string, int i) {
+	public static void strings(String string, int number) {
 		
-		if(i == 1) {
+		String display = "";
+		
+		for(int i = 0; i < number; i++) {
 			
-			System.out.println("Peace");
-			
-		}else if(i == 2) {
-			
-			System.out.println("Peace" + "Peace");
-			
-		}else if(i == 3) {
-			
-			System.out.println("Peace" + "Peace" + "Peace");
-			
-		}else if (i == 4) {
-			
-			System.out.println("Peace" + "Peace" + "Peace" + "Peace");
-			
-		}else if (i == 5) {
-			
-			System.out.println("Peace" + "Peace" + "Peace" + "Peace" + "Peace");
-
-		}else if (i == 6) {
-			
-			System.out.println("Peace" + "Peace" + "Peace" + "Peace"+ "Peace" + "Peace");
-
-		}else if(i == 7) {
-			
-			System.out.println("Peace" + "Peace" + "Peace" + "Peace"+ "Peace" + "Peace" + "Peace");
-
+			display = display + string; //CONCATENATION
 		}
-			
+		
+		System.out.println(display);
+		
+
 			
 	}
 		

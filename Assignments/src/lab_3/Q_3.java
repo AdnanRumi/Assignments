@@ -16,6 +16,11 @@ public class Q_3 {
 	}
 	
 	public static String repeatingEnds (String str) {
+		
+		if(str.length()< 2) {
+			
+			return "Invalid entry";
+		}
 
 		return str.substring(str.length()-2) + str.substring(str.length()-2) + str.substring(str.length()-2);
 	}
